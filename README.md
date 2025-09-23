@@ -6,7 +6,7 @@
 
 
 
-This project explores and prepares a large U.S. airline on-time performance dataset to understand delay patterns and to build a clean feature set for downstream modelling (e.g., predicting arrival/departure delays). Each team member contributes one preprocessing technique plus an EDA visualization; the group integrates everyone’s work into a single pipeline notebook. :contentReference\[oaicite:0]{index=0} :contentReference\[oaicite:1]{index=1}
+This project explores and prepares a large U.S. airline on-time performance dataset to understand delay patterns and to build a clean feature set for downstream modelling (e.g., predicting arrival/departure delays). Each team member contributes one preprocessing technique plus an EDA visualization; the group integrates everyone’s work into a single pipeline notebook.
 
 
 
