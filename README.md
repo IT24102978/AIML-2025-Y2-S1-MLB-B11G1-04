@@ -1,8 +1,8 @@
-\# Airline Delay Analysis – Progress Review I (Data Preprocessing \& EDA)
+# Airline Delay Analysis – Progress Review I (Data Preprocessing \& EDA)
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -14,28 +14,22 @@ This project explores and prepares a large U.S. airline on-time performance data
 
 
 
-\## Dataset
+## Dataset
 
 
-
-\- \*\*Name:\*\* Airline Delay Analysis
-
-\- \*\*Source:\*\* Kaggle (CSV, ~778 MB; 1M+ records; 25+ features)
-
-\- \*\*Link:\*\* https://www.kaggle.com/datasets/sherrytp/airline-delay-analysis/data
-
-\- \*\*Targets/labels:\*\* `ARR\\\_DELAY`, `DEP\\\_DELAY`
-
-\- \*\*Feature types :\*\*
-
-  - Numerical: `CRS\\\_DEP\\\_TIME`, `DEP\\\_TIME`, `DEP\\\_DELAY`, `TAXI\\\_OUT`, `WHEELS\\\_OFF`, `AIR\\\_TIME`, `DISTANCE`, `TAXI\\\_IN`, `CRS\\\_ARR\\\_TIME`, `ARR\\\_TIME`, `ARR\\\_DELAY`, `CARRIER\\\_DELAY`, `WEATHER\\\_DELAY`, `NAS\\\_DELAY`, `SECURITY\\\_DELAY`, `LATE\\\_AIRCRAFT\\\_DELAY`
-
-  - Categorical: `OP\\\_UNIQUE\\\_CARRIER`, `ORIGIN`, `DEST`, `DIVERTED`, `CANCELLED`, `CANCELLATION\\\_CODE`
+**Name:** Airline Delay Analysis  
+- **Source:** Kaggle (CSV, ~778 MB; 1M+ records; 25+ features)  
+- **Link:** https://www.kaggle.com/datasets/sherrytp/airline-delay-analysis/data  
+- **Targets/labels:** `ARR_DELAY`, `DEP_DELAY`  
+- **Feature types (examples):**  
+  - Numerical: `CRS_DEP_TIME`, `DEP_TIME`, `DEP_DELAY`, `TAXI_OUT`, `WHEELS_OFF`, `AIR_TIME`, `DISTANCE`, `TAXI_IN`, `CRS_ARR_TIME`, `ARR_TIME`, `ARR_DELAY`, `CARRIER_DELAY`, `WEATHER_DELAY`, `NAS_DELAY`, `SECURITY_DELAY`, `LATE_AIRCRAFT_DELAY`  
+  - Categorical: `OP_UNIQUE_CARRIER`, `ORIGIN`, `DEST`, `DIVERTED`, `CANCELLED`, `CANCELLATION_CODE`  
 
 
+---
 
-\## Roles \& Individual Contributions
 
+## Roles & Individual Contributions
 
 
 | IT24102978 | Handling Missing Data | Before/after null counts |
@@ -51,12 +45,14 @@ This project explores and prepares a large U.S. airline on-time performance data
 | IT24102979 | Dimensionality Reduction  | PCA |
 
 
-
-\## How to Run
-
+---
 
 
-1. Download a Python IDE
+## How to Run
+
+
+
+1. Download Jupyter Notebook
 2. Install these packages - pandas numpy matplotlib seaborn scikit-learn jupyter
 3. Run ..results/outputs/finalpipeline.ipynb
 
